@@ -1,0 +1,468 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* header style */
+header .top-info {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid #707070;
+  padding: 15px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  transition: all ease 0.5s;
+}
+header .top-info.free-state {
+  position: relative;
+}
+header .top-info .contact-info ul {
+  padding: 0;
+  margin: 0;
+}
+header .top-info .contact-info ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0;
+}
+header .top-info .contact-info ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+header .top-info .contact-info ul li a i {
+  margin-right: 5px;
+}
+header .top-info .contact-info ul li:first-child {
+  margin-right: 30px;
+}
+header .top-info .social-icons ul {
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+header .top-info .social-icons ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0;
+  margin-right: 25px;
+}
+header .top-info .social-icons ul li a {
+  color: #fff;
+}
+header .navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 55px;
+  left: 0;
+  width: 100%;
+  z-index: 999;
+  transition: all ease 0.4s;
+}
+header .navbar.sticky {
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+header .navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
+header .navbar .navbar-toggler {
+  color: #ffffff;
+  border-color: #ffffff;
+}
+header .navbar .navbar-collapse {
+  justify-content: flex-end;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-link {
+  color: #fff;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-transform: uppercase;
+}
+header .navbar .navbar-collapse .navbar-nav .nav-link.active {
+  color: #EE1F27;
+}
+
+/* header style */
+/* imports */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* imports */
+/* slider style */
+section.slider {
+  background: url(../images/slider/slider.png) center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+  padding: 230px 0 100px;
+}
+section.slider::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4);
+  z-index: -1;
+}
+section.slider .slider-content .first-part {
+  padding: 0 30px 0 0;
+  margin-bottom: 30px;
+}
+section.slider .slider-content .first-part h2 {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 600;
+}
+section.slider .slider-content .first-part h2 .diff_color {
+  color: #EE1F27;
+}
+section.slider .slider-content .first-part p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.7;
+  margin-bottom: 40px;
+}
+section.slider .slider-content .first-part .btn {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: #EE1F27;
+}
+section.slider .slider-content .second-part {
+  padding: 0 50px 0 0;
+}
+section.slider .slider-content .second-part h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+section.slider .slider-content .second-part .tracking-form input {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #000000;
+  border-radius: 0;
+  padding: 10px 20px;
+}
+section.slider .slider-content .second-part .tracking-form input:hover {
+  border-color: #ffffff;
+  outline: none;
+  box-shadow: none;
+}
+section.slider .slider-content .second-part .tracking-form ::placeholder {
+  color: #333333;
+}
+section.slider .slider-content .second-part .tracking-form ::-ms-input-placeholder {
+  color: #333333;
+}
+section.slider .slider-content .second-part .tracking-form :-ms-input-placeholder {
+  color: #333333;
+}
+section.slider .slider-content .second-part .tracking-form .btn {
+  padding: 10px 50px;
+  background-color: #EE1F27;
+}
+
+/* slider style */
+/* imports */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* imports */
+/* about style */
+section.about {
+  padding: 70px 0;
+}
+section.about .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+section.about .title h2 {
+  color: #414141;
+  font-size: 45px;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+section.about .title h2::after {
+  content: "";
+  position: absolute;
+  left: auto;
+  bottom: -10px;
+  width: 40px;
+  height: 5px;
+  background-color: #EE1F27;
+}
+section.about .about-text .about-box h3 {
+  font-size: 32px;
+}
+section.about .about-text .about-box h3 .diff_color {
+  color: #3C57A6;
+}
+section.about .about-text .about-box p {
+  font-size: 20px;
+}
+section.about .about-text .about-box:first-child {
+  margin-bottom: 40px;
+}
+section.about .about-image {
+  position: relative;
+}
+section.about .about-image .img2 {
+  position: absolute;
+  top: 20px;
+  left: -20px;
+}
+
+/* about style */
+/* imports */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* imports */
+/* about style */
+section.what-can {
+  padding: 70px 0;
+  background: url(../images/backgrounds/bg1.png) center center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+section.what-can::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: -1;
+}
+section.what-can .title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+section.what-can .title h2 {
+  color: #ffffff;
+  font-size: 45px;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+}
+section.what-can .title h2 .diff_color {
+  color: #EE1F27;
+}
+section.what-can .title p {
+  font-size: 20px;
+  color: #ffffff;
+  max-width: 800px;
+  margin: auto;
+}
+section.what-can .what-box {
+  border: 2px solid #ffffff;
+  text-align: center;
+  padding: 25px;
+}
+section.what-can .what-box h3 {
+  color: #ffffff;
+  font-size: 24px;
+  position: relative;
+  width: fit-content;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+  font-weight: 600;
+}
+section.what-can .what-box h3::after {
+  content: "";
+  position: absolute;
+  left: auto;
+  bottom: -15px;
+  width: 35px;
+  height: 5px;
+  background-color: #EE1F27;
+}
+section.what-can .what-box p {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* about style */
+/* imports */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* imports */
+/* about style */
+section.contact {
+  padding: 70px 0;
+}
+section.contact .title {
+  margin-bottom: 50px;
+}
+section.contact .title h2 {
+  color: #000000;
+  font-size: 45px;
+  font-weight: 600;
+  position: relative;
+}
+section.contact .title h2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 40px;
+  height: 5px;
+  background-color: #EE1F27;
+}
+section.contact .contact-info .info-box {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 25px;
+}
+section.contact .contact-info .info-box h4 {
+  font-size: 20px;
+  margin-bottom: 0;
+}
+section.contact .contact-info .info-box p {
+  font-size: 16px;
+}
+section.contact .contact-info .info-box p a {
+  color: #414141;
+  text-decoration: none;
+}
+section.contact .contact-info .info-box i {
+  position: absolute;
+  left: 0;
+  color: #3C57A6;
+  font-size: 25px;
+}
+section.contact .contact-form form label {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+section.contact .contact-form form input,
+section.contact .contact-form form textarea {
+  background-color: #F5F5F5;
+  border: none;
+}
+section.contact .contact-form form .btn {
+  background-color: #EE1F27;
+  padding: 7px 40px;
+}
+
+/* about style */
+/* imports */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* imports */
+/* footer style */
+footer .top-footer {
+  background-color: #F5F5F5;
+  padding: 30px 0;
+}
+footer .top-footer .textwidget .footer-logo {
+  margin-bottom: 15px;
+}
+footer .top-footer .textwidget p {
+  line-height: 1.7;
+}
+footer .top-footer .widget_links h5 {
+  margin-bottom: 20px;
+}
+footer .top-footer .widget_links ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer .top-footer .widget_links ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+footer .top-footer .widget_links ul li::before {
+  content: "•";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 15px;
+}
+footer .top-footer .widget_links ul li a {
+  text-decoration: none;
+  color: #414141;
+}
+footer .top-footer .footer-info .info-box {
+  position: relative;
+  padding-left: 25px;
+}
+footer .top-footer .footer-info .info-box p {
+  font-size: 16px;
+  margin-bottom: 7px;
+}
+footer .top-footer .footer-info .info-box p a {
+  color: #414141;
+  text-decoration: none;
+}
+footer .top-footer .footer-info .info-box i {
+  position: absolute;
+  left: 0;
+  color: #EE1F27;
+  font-size: 15px;
+  top: 5px;
+}
+footer .bottom-footer {
+  background-color: #060F1F;
+  padding: 15px 0;
+}
+footer .bottom-footer .bottom-bar p {
+  color: #ffffff;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+footer .bottom-footer .bottom-bar p a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .bottom-footer .social-footer ul {
+  padding: 0;
+  margin: 0;
+  text-align: right;
+}
+footer .bottom-footer .social-footer ul li {
+  list-style: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 0;
+  margin-right: 10px;
+}
+footer .bottom-footer .social-footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+footer .bottom-footer .social-footer ul li a i {
+  margin-right: 5px;
+}
+
+/* footer style */
+
+/*# sourceMappingURL=style.css.map */

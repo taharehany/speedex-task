@@ -1,0 +1,111 @@
+/* header style */
+header {
+    .top-info {
+        background-color: rgba(0, 0, 0, .5);
+        border-bottom: 1px solid #707070;
+        padding: 15px 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        transition: all ease .5s;
+
+        &.free-state {
+            position: relative;
+        }
+
+        .contact-info {
+            ul {
+                padding: 0;
+                margin: 0;
+
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    font-size: 14px;
+                    padding: 0;
+
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+
+                        i {
+                            margin-right: 5px;
+                        }
+                    }
+
+                    &:first-child {
+                        margin-right: 30px;
+                    }
+                }
+            }
+        }
+
+        .social-icons {
+            ul {
+                text-align: right;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    font-size: 14px;
+                    padding: 0;
+                    margin-right: 25px;
+
+                    a {
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    .navbar {
+        background-color: rgba(0, 0, 0, .5);
+        position: fixed;
+        top: 55px;
+        left: 0;
+        width: 100%;
+        z-index: 999;
+        transition: all ease .4s;
+
+        &.sticky {
+            top: 0;
+            background-color: rgba(0, 0, 0, .9);
+        }
+
+        .navbar-toggler {
+            &:focus {
+                box-shadow: none
+            }
+        }
+
+        .navbar-toggler {
+            color: $white_color;
+            border-color: $white_color;
+        }
+
+        .navbar-collapse {
+            justify-content: flex-end;
+
+            .navbar-nav {
+                .nav-link {
+                    color: #fff;
+                    font-size: 16px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                    text-transform: uppercase;
+
+                    &.active {
+                        color: $main_color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* header style */

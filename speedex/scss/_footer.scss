@@ -1,0 +1,120 @@
+/* imports */
+@import 'variables';
+/* imports */
+
+/* footer style */
+footer {
+    .top-footer {
+        background-color: #F5F5F5;
+        padding: 30px 0;
+
+        .textwidget {
+            .footer-logo {
+                margin-bottom: 15px;
+            }
+
+            p {
+                line-height: 1.7;
+            }
+        }
+
+        .widget_links {
+            h5 {
+                margin-bottom: 20px;
+            }
+
+            ul {
+                list-style: none;
+                padding-left: 0;
+
+                li {
+                    font-size: 16px;
+                    margin-bottom: 5px;
+
+                    &::before {
+                        content: "\2022";
+                        color: red;
+                        font-weight: bold;
+                        display: inline-block;
+                        width: 15px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: #414141;
+                    }
+                }
+            }
+        }
+
+        .footer-info {
+            .info-box {
+                position: relative;
+                padding-left: 25px;
+
+                p {
+                    font-size: 16px;
+                    margin-bottom: 7px;
+
+                    a {
+                        color: #414141;
+                        text-decoration: none;
+                    }
+                }
+
+                i {
+                    position: absolute;
+                    left: 0;
+                    color: $main_color;
+                    font-size: 15px;
+                    top: 5px;
+                }
+            }
+        }
+    }
+
+    .bottom-footer {
+        background-color: #060F1F;
+        padding: 15px 0;
+
+        .bottom-bar {
+            p {
+                color: $white_color;
+                margin-bottom: 0;
+                font-size: 16px;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                }
+            }
+        }
+
+        .social-footer {
+            ul {
+                padding: 0;
+                margin: 0;
+                text-align: right;
+
+                li {
+                    list-style: none;
+                    display: inline-block;
+                    font-size: 14px;
+                    padding: 0;
+                    margin-right: 10px;
+
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+
+                        i {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* footer style */
